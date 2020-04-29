@@ -167,7 +167,8 @@ int main(void) {
       }
    }
    for (int i = 0; i < times; i++) {
-      printf("%1.3f\r\n%1.3f\r\n", x[i], y[i]);
+      printf("%1.3f\r\n", x[i]);
+      printf("%1.3f\r\n", y[i]);
       printf("%1.3f\r\n", z[i]);
       printf("%d\r\n", geq5[i]);
    }

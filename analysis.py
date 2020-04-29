@@ -24,7 +24,6 @@ for i in range(0, 99):
     line=s.readline()
     y[i] = float(line.decode('utf-8'))
     line=s.readline()
-    print(line)
     z[i] = float(line.decode('utf-8'))
     line=s.readline()
     geq5[i] = float(line.decode('utf-8'))
